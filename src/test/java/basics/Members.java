@@ -32,6 +32,10 @@ public class Members {
 	public String getName() {
 		return name;
 	}
+	public String getdemoName() {
+		return name;
+	}
+
 	@Override
 	public String toString() {
 		return "Members [id=" + id + ", name=" + name + ", gender=" + gender + "]";
